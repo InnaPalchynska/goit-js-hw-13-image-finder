@@ -3,6 +3,5 @@ export default function getRefs() {
     cardContainer: document.querySelector('.gallery'),
     searchForm: document.querySelector('.search-form'),
     sentinel: document.querySelector('.sentinel'),
-    toScroll: document.querySelector('.scroll'),
   };
 }

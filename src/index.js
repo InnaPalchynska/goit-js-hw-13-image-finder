@@ -66,7 +66,6 @@ const onEntry = entries => {
         renderImageCard(images);
         console.dir(refs.cardContainer.lastElementChild);
         imagesApiService.incrementPage();
-        refs.toScroll.scrollIntoView({ block: 'center', behavior: 'smooth' });
       });
     }
   });
